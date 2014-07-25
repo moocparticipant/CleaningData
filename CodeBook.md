@@ -1,4 +1,6 @@
-#This is the Code book
+#This is the Code book for data I cleaned and named for Activity 1-4 in the code project
+# Activity label was taken from train_Y and test_Y files and appropriate activityname was obtained from activity_label.txt file
+#transformation of each data step is shown in code script
  col number                        code                                                         name
 1                          activitylabel                                                activitylabel
 2                      tBodyAcc-mean()-X                            timevariedBodyacceleration-mean-X
