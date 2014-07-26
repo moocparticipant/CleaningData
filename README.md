@@ -15,7 +15,7 @@ you have saved the script.
 Now use the following command to get it to your r workspace
          
 		 
-		 source(run_analysis.r)
+		 source("run_analysis.r")
 		 
 call function using the command below no parameters are required.
 But you should have permission to create directories in your computer
