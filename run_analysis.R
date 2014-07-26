@@ -163,5 +163,5 @@ myscript <- function(){
 	#---------------------------------------------
 	FinalSetToSubmit <- aggregate(TidySet[ ,c(1:66)], by = TidySet [c(67,68)], FUN = mean)
 	#column 67 is subject and 68 is activity label
-	FinalSetToSubmit		
+	write.table(FinalSetToSubmit, file ="tidy_data_to_submit.txt")			
 }
