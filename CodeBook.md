@@ -73,4 +73,6 @@
 531               fBodyBodyGyroMag-std()             frequencyvariedBodyBodyGyroMag-standarddeviation
 543          fBodyBodyGyroJerkMag-mean()                      frequencyvariedBodyBodyGyroJerkMag-mean
 544           fBodyBodyGyroJerkMag-std()         frequencyvariedBodyBodyGyroJerkMag-standarddeviation
+563        activityname                          activityname
 
+#then I added another column subjectid into the tidydataset.
