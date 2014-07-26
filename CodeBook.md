@@ -1,3 +1,6 @@
+#
+# Please view in Raw to show columns otherwise it looks messy
+#
 Data from X_test.txt and X_train.text are combined (appended)
 The fullset has 561 columns and 10299 rows
 
