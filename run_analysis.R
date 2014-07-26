@@ -161,7 +161,7 @@ myscript <- function(){
 	#--------------------------------------------
 	# 5. now use this tidy data to calculate the summary
 	#---------------------------------------------
-	FinalSetToSubmit <- aggregate(TidySet[ ,c(1:66)], by = TidySet [c(67,68)], FUN = mean)
-	#column 67 is subject and 68 is activity label
+	FinalSetToSubmit <- aggregate(TidySet[ ,c(1:66)], by = TidySet [c(67,69)], FUN = mean)
+	#column 67 is subject and 69 is activity 
 	write.table(FinalSetToSubmit, file ="tidy_data_to_submit.txt")			
 }
