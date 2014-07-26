@@ -13,12 +13,12 @@ These are matched with the values in the combined data set
 	#
 	# At this point DataSet contains all 561 columns plus 
 	# activitylabel, activitynames and subject columns
-  #	
+    #	
 	
 read features.txt file to find the variable names
 now rename the FullDataSet with meaningful names as below 
 Out of these only the columns with means, standard deveations (that is mean() and std()) along with activitylabel, subject and activity name
-are extracted for the tidy data set. The reason for selecting only columns with mean() std() is because the instructions asks to extract mean and standard deviations. In my view only data columns that say they are mean() or std() satisfies this criteria
+are extracted for the tidy data set.
 
 
                                     code                                                         name
@@ -586,6 +586,14 @@ are extracted for the tidy data set. The reason for selecting only columns with 
 562                              subject                                                      subject
 563                        activitylabel                                                activitylabel
 564                         activityname                                                 activityname
+
+That is columns 
+ 1   2   3   4   5   6  41  42  43  44  45  46  81  82  83  84  85  86 121 122 123 124 125 126 161 162 163 164 165 166
+201 202 214 215 227 228 240 241 253 254 266 267 268 269 270 271 345 346 347 348 349 350 424 425 426 427 428 429 503 504
+516 517 529 530 542 543 562 563 564
+in the above column list.
+
+Next the data is summarised to give mean() by activityname and subject (except activitylabel, activityname, subject)
 
 
 
